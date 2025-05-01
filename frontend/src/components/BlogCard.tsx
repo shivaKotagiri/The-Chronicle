@@ -25,7 +25,7 @@ function BlogCard({ blog, edit = false, deleteBlog = false }: {
         }
       });
 
-      window.location.reload();
+      navigate("/myblogs");
     }
     catch (e: any) {
       console.error("Error deleting blog:", e);
