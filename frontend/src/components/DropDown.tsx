@@ -17,7 +17,7 @@ function DropDown() {
       <DropdownMenu>
         <DropdownMenuTrigger>
           <div className="cursor-pointer">
-            <Menu className="text-white" />
+            <Menu size={30} className="text-white" />
           </div>
         </DropdownMenuTrigger>
         <DropdownMenuContent>

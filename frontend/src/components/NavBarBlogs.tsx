@@ -55,7 +55,7 @@ function NavBarBlogs() {
         <DropdownMenu>
           <DropdownMenuTrigger>
             <div className="cursor-pointer p-1">
-              <Menu className="text-white w-5 h-5 sm:w-6 sm:h-6" />
+              <Menu size={30} className="text-white" />
             </div>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="z-[100]">
