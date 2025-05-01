@@ -67,7 +67,7 @@ function Blog() {
               </div>
             </div>
             <div className="text-justify text-gray-200 leading-relaxed">
-              <p className="mb-4">{blog?.description}</p>
+              <p className="mb-4 whitespace-pre-wrap">{blog?.description}</p>
             </div>
           </div>
         </div>
