@@ -17,7 +17,7 @@ function UserBlogs() {
           </div>
         ) : blogs.length > 0 ? (
           <div className="w-full">
-            {blogs.map(blog => <BlogCard key={blog.id} blog={blog} edit={false} deleteBlog={false} />)}
+            {blogs.map(blog => <BlogCard key={blog.id} blog={blog} edit={true} deleteBlog={true} />)}
           </div>
         ) : (
           <div className="flex-1 flex justify-center items-center">
