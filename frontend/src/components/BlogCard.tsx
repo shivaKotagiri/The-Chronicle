@@ -55,16 +55,17 @@ function BlogCard({ blog, edit = false, deleteBlog = false }: {
       onClick={() => navigate(`/blog/${blog.id}`)}
       className="cursor-pointer hover:scale-[103%] shadow-2xl mb-7 rounded-xl transition duration-250 shadow-blue-500/20 border border-gray-800 p-5 text-white w-[85%] md:w-[75%] mx-auto"
     >
-      <div className="flex text-center items-center">
+      <div className="flex items-center">
         <div className="w-10 h-10 rounded-full text-lg bg-gray-900 flex justify-center text-center items-center mr-3">
           {blog.author.firstName?.toUpperCase()[0] || '?'}
         </div>
-        <div className="text-md font-semibold">
-          {`${blog.author.firstName || ''} ${blog.author.lastName || ''}`}
-        </div>
-        <div className="mx-1 md:mx-3">|</div>
-        <div className="text-sm text-gray-200">
-          {publishedDate.toLocaleDateString("en-US", {year: "numeric", month: "long", day: "numeric"})}
+        <div className="flex-col">
+          <div className="text-md font-semibold">
+            {`${blog.author.firstName || ''} ${blog.author.lastName || ''}`}
+          </div>
+          <small className="flex-start text-gray-400">
+            {publishedDate.toLocaleDateString("en-US", {year: "numeric", month: "long", day: "numeric"})}
+          </small>
         </div>
       </div>
       <div className="font-bold text-md md:text-xl text-gray-100 mt-2">{blog.title}</div>

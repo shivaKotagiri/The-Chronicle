@@ -20,7 +20,7 @@ export default function Home  () {
               Write. Connect. Remember.
             </h3>
             <div className="flex text-center justify-center items-center">
-              <p className="text-white w-md md:w-lg justify-center align-middle items-center  text-sm md:text-xl lg:w-xl mt-4 text-center">
+              <p className="text-white w-[60%] md:w-[80%] justify-center align-middle items-center  text-sm md:text-xl mt-4 text-center">
               The elegant solution for capturing thoughts and building a loyal readership.
               </p>
             </div>

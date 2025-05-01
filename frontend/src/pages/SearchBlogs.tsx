@@ -44,7 +44,7 @@ export default function SearchBlogs() {
     <div className="min-h-screen bg-black text-white">
       <NavBarBlogs />
 
-      <div className="pt-28 px-4 md:px-8 max-w-7xl mx-auto">
+      <div className="pt-28 px-6 md:px-8 max-w-7xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Search Blogs</h1>
 
         <div className="w-full max-w-3xl mx-auto mb-12">
