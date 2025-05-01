@@ -10,7 +10,7 @@ function UserBlogs() {
   return (
     <div className="bg-black min-h-screen w-full overflow-x-hidden">
       <NavBarBlogs />
-      <div className="pt-24 px-4 md:px-8 max-w-7xl mx-auto">
+      <div className="pt-24 px-4 md:px-8 max-w-7xl mx-auto h-[calc(100vh-96px)] flex flex-col">
         {loading ? (
           <div className="flex justify-center items-center my-[20%]">
             <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
