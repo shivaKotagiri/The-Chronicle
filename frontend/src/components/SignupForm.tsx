@@ -68,13 +68,13 @@ export default function SignupForm() {
 
 
   return (
-    <div className="min-h-screen w-screen bg-black flex flex-col">
+    <div className="min-h-screen rounded-lg w-screen bg-black flex flex-col">
       <div className="w-screen sticky top-0 z-50">
         <MemoizedNavBarContainer />
       </div>
 
       <div className="flex-1 flex items-center justify-center w-full px-4 pt-16">
-        <div className="shadow-2xl shadow-blue-500/20 border border-gray-800 w-full max-w-md rounded-none bg-black p-4 md:rounded-2xl md:p-8">
+        <div className="shadow-2xl shadow-blue-500/20 border border-gray-800 w-full max-w-md rounded-lg bg-black p-4 md:rounded-2xl md:p-8">
           <h2 className="text-xl font-bold text-neutral-200">
             Welcome to Chronicle
           </h2>
