@@ -51,7 +51,7 @@ function Blog() {
     <>
       <div className="max-w-screen min-h-screen text-white flex flex-col bg-black">
         <NavBarBlogs />
-        <div className="w-auto flex justify-center pt-30">
+        <div className="w-auto mx-3 flex justify-center pt-30">
           <div className="w-auto md:w-[75%] p-5 md:p-7 shadow-2xl shadow-blue-500/20 border border-gray-800 rounded-lg">
             <div className="flex flex-col md:flex-row md:justify-between mb-5">
               <div>
@@ -67,7 +67,8 @@ function Blog() {
               </div>
             </div>
             <div className="text-justify text-gray-200 leading-relaxed">
-              <p className="mb-4">{blog?.description}</p>
+              <p className="mb-4 whitespace-pre-wrap">{blog?.description}
+              </p>
             </div>
           </div>
         </div>
