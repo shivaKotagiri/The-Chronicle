@@ -1,3 +1,4 @@
+
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useNavigate } from "react-router-dom";
 import SparklesPreview from "./SparklesPreview";
@@ -27,30 +28,34 @@ function NavBarBlogs() {
   }
 
   return (
-    <div className="justify-between pt-5 h-20 px-5 text-white flex bg-black w-full fixed z-50">
-      <div className="cursor-pointer mr-3" onClick={() => navigate("/blogs")}>
+    <div className="justify-between py-2 sm:py-3 md:py-4 h-16 sm:h-18 md:h-20 px-2 sm:px-3 md:px-5 text-white flex items-center bg-black w-full fixed z-50">
+      <div className="cursor-pointer mt-7 flex items-center" onClick={() => navigate("/blogs")}>
         <SparklesPreview />
       </div>
-      <div className="flex xl:translate-x-10 w-screen justify-center">
+
+      <div className="flex flex-1 justify-center px-2 sm:px-4">
         <div
           onClick={() => navigate("/searchblogs")}
-          className="flex items-center cursor-pointer rounded-2xl bg-gray-900/60 px-4 border border-gray-800 hover:bg-gray-800/80 transition-colors"
+          className="flex items-center justify-center cursor-pointer rounded-xl sm:rounded-2xl bg-gray-900/60 px-2 sm:px-3 md:px-4 py-1 sm:py-3 border border-gray-800 hover:bg-gray-800/80 transition-colors w-full max-w-xs sm:max-w-sm md:max-w-md"
         >
-          <div className="flex">
-            <span className="text-md text-gray-300">Search</span>
-            <Search className="w-5 hidden md:block h-5 ml-2 text-blue-400" />
-          </div>
+          <span className="text-sm sm:text-md text-gray-300">Search Blogs</span>
+          <Search className="w-4 h-4 sm:w-5 sm:h-5 ml-1 text-center sm:ml-2 text-gray-400" />
         </div>
       </div>
-      <div onClick={() => navigate("/blog/create")} itemType="button" className="mt-1 h-10 ml-3 bg-black md:h-12 hover:bg-gray-950 cursor-pointer rounded-full md:rounded-4xl p-2 lg:p-2 flex md:w-[30%] lg:w-[17%] xl:w-[15%] 2xl:w-[13%] border-2 border-gray-800 mr-3 md:mr-7 lg:mr-10 justify-center items-center">
-        <div className="md:mr-2"><Plus /></div>
-        <div className="hidden md:block">Create Blog</div>
+
+      <div
+        onClick={() => navigate("/blog/create")}
+        className="h-8 sm:h-10 md:h-12 bg-black hover:bg-gray-950 cursor-pointer rounded-full p-1 sm:p-2 flex border-2 border-gray-800 items-center justify-center transition-colors mx-1 sm:mx-2 md:mx-3"
+      >
+        <Plus className="w-4 h-4 sm:w-5 sm:h-5" />
+        <span className="hidden sm:inline ml-1 md:ml-2 text-sm md:text-base whitespace-nowrap">Create Blog</span>
       </div>
-      <div className="mt-3 relative">
+
+      <div className="relative flex items-center">
         <DropdownMenu>
           <DropdownMenuTrigger>
-            <div className="cursor-pointer">
-              <Menu className="text-white" />
+            <div className="cursor-pointer p-1">
+              <Menu className="text-white w-5 h-5 sm:w-6 sm:h-6" />
             </div>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="z-[100]">

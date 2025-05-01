@@ -25,8 +25,8 @@ export default function Home  () {
               </p>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-            <button className="cursor-pointer px-4 py-2 bg-purple-800 hover:bg-purple-900 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]" onClick={() => navigate("/signup")}>
+          <div className="flex sm:flex-row items-center gap-4 mt-6">
+            <button className="cursor-pointer px-4 py-2 bg-green-800 hover:bg-purple-900 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]" onClick={() => navigate("/signup")}>
               Get Started
             </button>
             <button className="cursor-pointer px-6 py-2 border border-gray-400 rounded-2xl hover:bg-accent-foreground transition duration-200 text-white" onClick={() => navigate("/login")}>Login</button>
