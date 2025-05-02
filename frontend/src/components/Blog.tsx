@@ -51,8 +51,8 @@ function Blog() {
     <>
       <div className="max-w-screen min-h-screen text-white flex flex-col bg-black">
         <NavBarBlogs />
-        <div className="w-auto mx-3 flex justify-center pt-30">
-          <div className="w-auto md:w-[75%] p-5 md:p-7 bg-[#0A0A0A] shadow-sm shadow-blue-500/20 border border-gray-900 rounded-lg">
+        <div className="w-auto mx-3 flex justify-center pt-25">
+          <div className="w-auto md:w-[75%] p-5 md:p-7 bg-black shadow-sm shadow-blue-500/20 border border-gray-900 rounded-lg">
             <div className="flex flex-col md:flex-row md:justify-between mb-5">
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold">{blog?.title}</h1>

@@ -53,7 +53,7 @@ function BlogCard({ blog, edit = false, deleteBlog = false }: {
   return (
     <div
       onClick={() => navigate(`/blog/${blog.id}`)}
-      className="cursor-pointer bg-[#0A0A0A] hover:scale-[103%] shadow-sm mb-7 rounded-xl transition duration-250 shadow-blue-200/20 border border-gray-950 p-5 text-white w-[90%] md:w-[70%] mx-auto"
+      className="cursor-pointer bg-black hover:scale-[103%] shadow-sm mb-7 rounded-xl transition duration-250 shadow-blue-200/20 border border-gray-950 p-5 text-white w-[90%] md:w-[70%] mx-auto"
     >
       <div className="flex items-center">
         <div className="w-10 h-10 rounded-full text-lg bg-gray-900 flex justify-center text-center items-center mr-3">
