@@ -5,7 +5,7 @@ function SparklesPreview() {
   return (
     <div className="h-12 sm:h-16 md:h-20 w-24 sm:w-32 md:w-40 bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-center text-white relative z-20">
-        The Chronicle
+        Chronicle
       </h1>
       <div className="w-full h-8 sm:h-10 relative">
         <div className="absolute inset-x-4 sm:inset-x-8 md:inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[1px] sm:h-[2px] w-3/4 blur-sm" />
