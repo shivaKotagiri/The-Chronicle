@@ -76,10 +76,10 @@ export default function SignupForm() {
       <div className="flex-1 flex items-center justify-center w-full px-4 pt-16">
         <div className="shadow-2xl shadow-blue-500/20 border border-gray-800 w-full max-w-md rounded-lg bg-black p-4 md:rounded-2xl md:p-8">
           <h2 className="text-xl font-bold text-neutral-200">
-            Welcome to Chronicle
+            Welcome to The Chronicle
           </h2>
           <p className="mt-2 max-w-sm text-sm text-neutral-300">
-            Sign up to Chronicle — where every word leaves a trace, even if the login doesn't.
+            Sign up to The Chronicle — where every word leaves a trace, even if the login doesn't.
           </p>
 
           <form className="my-8" onSubmit={handleSubmit}>

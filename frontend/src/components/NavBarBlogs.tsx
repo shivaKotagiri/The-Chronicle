@@ -36,7 +36,7 @@ function NavBarBlogs() {
       <div className="flex flex-1 justify-center px-2 sm:px-4">
         <div
           onClick={() => navigate("/searchblogs")}
-          className="mt-1 flex items-center justify-center cursor-pointer rounded-3xl sm:rounded-2xl bg-gray-900/60 px-2 sm:px-3 md:px-4 py-3 border border-gray-800 hover:bg-gray-800/80 transition-colors w-full max-w-xs sm:max-w-sm md:max-w-md"
+          className="mt-1 flex items-center justify-center cursor-pointer rounded-3xl sm:rounded-2xl bg-gray-950/60 px-2 sm:px-3 md:px-4 py-3 border border-gray-800 hover:bg-[#0A0A0A] transition-colors w-full max-w-xs sm:max-w-sm md:max-w-md"
         >
           <span className="text-sm sm:text-md text-gray-300">Search Blogs</span>
           <Search className="w-4 h-4 sm:w-5 sm:h-5 ml-1 text-center sm:ml-2 text-gray-400" />
@@ -59,7 +59,7 @@ function NavBarBlogs() {
             </div>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="z-[100]">
-            <DropdownMenuLabel>Chronicle</DropdownMenuLabel>
+            <DropdownMenuLabel>The Chronicle</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <div className="cursor-pointer" onClick={() => navigate("/settings")}><DropdownMenuItem>Settings</DropdownMenuItem></div>
             <div className="cursor-pointer" onClick={() => navigate("/myblogs")}><DropdownMenuItem>My Blogs</DropdownMenuItem></div>

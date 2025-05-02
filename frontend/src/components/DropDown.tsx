@@ -21,7 +21,7 @@ function DropDown() {
           </div>
         </DropdownMenuTrigger>
         <DropdownMenuContent>
-          <DropdownMenuLabel>Chronicle</DropdownMenuLabel>
+          <DropdownMenuLabel>The Chronicle</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <div className="cursor-pointer" onClick={() => navigate("/signup")}><DropdownMenuItem>Sign Up</DropdownMenuItem></div>
           <div className="cursor-pointer" onClick={() => navigate("/login")}><DropdownMenuItem>Login</DropdownMenuItem></div>

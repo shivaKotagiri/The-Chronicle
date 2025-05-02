@@ -14,7 +14,7 @@ export default function Home  () {
         >
           <div className="text-center justify-center align-middle items-center w-xl">
             <h2 className="text-gray-300 text-4xl md:text-6xl font-bold text-center">
-              Chronicle
+              The Chronicle
             </h2>
             <h3 className="text-white text-xl md:text-3xl font-bold text-center">
               Write. Connect. Remember.
